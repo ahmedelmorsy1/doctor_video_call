@@ -1,0 +1,70 @@
+name: doctor2
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+
+dependencies:
+  auth_repository:
+    path: packages/auth_repository
+  bloc: ^8.1.0
+  equatable: ^2.0.3
+  firebase_core: ^2.1.0
+  flow_builder: ^0.0.9
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  font_awesome_flutter: ^10.1.0
+  form_inputs:
+    path: packages/form_inputs
+  formz: ^0.4.0
+  google_fonts: ^3.0.1
+  meta: ^1.7.0
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  # agora_uikit: ^1.1.0
+  agora_rtc_engine: ^6.1.0
+  permission_handler: ^10.2.0
+  my_fatoorah: ^3.1.0
+  firebase_auth: 
+  google_sign_in: 
+  email_validator: 
+  provider: ^6.0.5
+  flutter_checkout_payment: ^1.2.0
+  flutter_credit_card: ^3.0.4
+  flutter_fawry_pay: ^0.0.6+1
+
+dev_dependencies:
+  bloc_test: ^9.0.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^3.0.0
+
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+    # - assets/
